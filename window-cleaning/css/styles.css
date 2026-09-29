@@ -367,6 +367,23 @@ li + li {
     margin: 0.25rem 0 0;
 }
 
+.map-card {
+    border-top: 1px solid var(--color-border);
+    margin-top: var(--space-lg);
+    padding-top: var(--space-lg);
+}
+
+.map-card iframe {
+    width: 100%;
+    min-height: 260px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-small);
+}
+
+.map-card p {
+    margin-top: var(--space-sm);
+}
+
 .contact-form {
     display: grid;
     gap: var(--space-md);
