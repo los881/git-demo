@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt | Klart Udsyn Vinduespudsning</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Sidehoved med logo og navigation -->
+    <header class="site-header">
+        <div class="container header-content">
+            <a class="site-logo" href="index.html" aria-label="Klart Udsyn Vinduespudsning forside">
+                Klart Udsyn
+            </a>
+            <nav class="main-navigation" aria-label="Hovednavigation">
+                <ul>
+                    <li><a href="index.html">Forside</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a class="active" href="contact.html" aria-current="page">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Introduktion til kontakt -->
+        <section class="page-intro">
+            <div class="container narrow">
+                <p class="eyebrow">Kontakt</p>
+                <h1>Få et uforpligtende tilbud på vinduespudsning</h1>
+                <p>
+                    Skriv eller ring til os, hvis du ønsker en pris, en fast aftale eller har spørgsmål til,
+                    hvordan vi arbejder.
+                </p>
+            </div>
+        </section>
+
+        <!-- Kontaktoplysninger og formular -->
+        <section class="section">
+            <div class="container contact-grid">
+                <aside class="contact-details" aria-labelledby="contact-details-heading">
+                    <h2 id="contact-details-heading">Kontaktoplysninger</h2>
+                    <dl>
+                        <div>
+                            <dt>Adresse</dt>
+                            <dd>Klart Udsyn Vinduespudsning<br>Silkeborgvej 214<br>8230 Åbyhøj</dd>
+                        </div>
+                        <div>
+                            <dt>Telefon</dt>
+                            <dd><a href="tel:+4542451830">42 45 18 30</a></dd>
+                        </div>
+                        <div>
+                            <dt>E-mail</dt>
+                            <dd><a href="mailto:kontakt@klartudsyn.dk">kontakt@klartudsyn.dk</a></dd>
+                        </div>
+                        <div>
+                            <dt>Åbningstider</dt>
+                            <dd>Mandag-fredag: 08.00-17.00<br>Lørdag: Efter aftale</dd>
+                        </div>
+                        <div>
+                            <dt>Område</dt>
+                            <dd>Aarhus, Åbyhøj, Brabrand, Viby, Risskov, Højbjerg og omegn.</dd>
+                        </div>
+                    </dl>
+                </aside>
+
+                <form class="contact-form" action="#" method="post">
+                    <h2>Send en besked</h2>
+                    <div class="form-field">
+                        <label for="name">Navn</label>
+                        <input type="text" id="name" name="name" autocomplete="name" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" autocomplete="email" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="phone">Telefonnummer</label>
+                        <input type="tel" id="phone" name="phone" autocomplete="tel">
+                    </div>
+                    <div class="form-field">
+                        <label for="service">Valg af service</label>
+                        <select id="service" name="service" required>
+                            <option value="">Vælg en service</option>
+                            <option value="privat">Privat vinduespudsning</option>
+                            <option value="erhverv">Erhvervsvinduespudsning</option>
+                            <option value="abonnement">Fast abonnementsordning</option>
+                            <option value="andet">Andet</option>
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <label for="message">Besked</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button class="button button-primary" type="submit">Send besked</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Ekstra kontaktinformation -->
+        <section class="section section-muted">
+            <div class="container narrow">
+                <h2>Det hjælper os med at give en præcis pris</h2>
+                <p>
+                    Skriv gerne antal vinduer, boligtype, postnummer og om du ønsker indvendig,
+                    udvendig eller komplet vinduespudsning. Fortæl også, hvis der er særlige adgangsforhold
+                    som altan, høje vinduer eller låst gård.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer med kontakt og genveje -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <strong>Klart Udsyn Vinduespudsning</strong>
+                <p>&copy; 2026 Klart Udsyn Vinduespudsning. Alle rettigheder forbeholdes.</p>
+            </div>
+            <div>
+                <p><a href="tel:+4542451830">42 45 18 30</a></p>
+                <p><a href="mailto:kontakt@klartudsyn.dk">kontakt@klartudsyn.dk</a></p>
+            </div>
+            <nav class="footer-navigation" aria-label="Footer navigation">
+                <a href="index.html">Forside</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Kontakt</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
